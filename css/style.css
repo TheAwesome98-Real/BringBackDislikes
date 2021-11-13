@@ -1,0 +1,21 @@
+* {
+  font-family: system-ui, sans-serif;
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+  background: #000000;
+}
+
+.logo {
+  background: url(img/logo.png);
+  margin-left: auto;
+  margin-right: auto;
+  width: 512px;
+  height: 512px;
+}
+
+h1 {
+  text-align: center;
+}
