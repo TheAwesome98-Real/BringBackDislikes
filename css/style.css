@@ -9,7 +9,7 @@ body {
 }
 
 .logo {
-  background: url(img/logo.png);
+  background: url(../img/logo.png);
   margin-left: auto;
   margin-right: auto;
   width: 512px;
