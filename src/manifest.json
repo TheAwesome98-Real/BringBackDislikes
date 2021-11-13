@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "BringBackDislikes",
+  "version": "0.0.1",
+
+  "description": "Adds dislikes back to YouTube.",
+
+  "icons": {
+    "512": "img/logo_512.png",
+    "48": "img/logo_48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["main.js"]
+    }
+  ]
+
+}
+
